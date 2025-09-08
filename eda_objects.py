@@ -70,7 +70,7 @@ def main():
     files = list_images(DATA_DIR)
     per_obj, shots_counts, stats = summarize(files)
 
-    print("=== COIL-100 SUMMARY ===")
+    print("COIL-100 SUMMARY")
     print(stats)
     from collections import Counter
     print("Shots per object distribution:", dict(Counter(shots_counts.values())))
