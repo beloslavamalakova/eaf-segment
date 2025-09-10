@@ -92,14 +92,13 @@ This produces a new image with selected masks replaced by the uploaded objects.
 
    ```bash
    git clone https://github.com/beloslavamalakova/eaf-segment.git
-   cd SegmentCraft
    ```
 
 
 2. Open the SAM notebook:
 
    ```bash
-   jupyter notebook notebooks/sam_automatic_semantic_segmentation (1).ipynb
+   jupyter notebook am_automatic_semantic_segmentation (1).ipynb
    ```
 
 4. Run the cells to generate masks, save metadata, and experiment with object replacement.
