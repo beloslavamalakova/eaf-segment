@@ -29,13 +29,17 @@ The repository also contains our **initial experiments with K-Means clustering**
     * *Replace masks smaller than 1% of the image area*
     * *Replace masks in a percentile band (e.g., between the 60th and 90th percentile of mask area)*
     * *Scale through Dion-scaling so that the new images fit perfectly in each mask.*
-   
+
     <p align="center">
-       <img src="images/pizza_SAM.png" alt="Alt text" width="500"/>
+       <img src="images/pizza_original.png" alt=" Pizza Image" width="500"/>
     </p>
 
     <p align="center">
-       <img src="images/pizza_done.png" alt="Alt text" width="500"/>
+       <img src="images/pizza-SAM.png" alt="Segmented Pizza Image" width="500"/>
+    </p>
+    
+    <p align="center">
+       <img src="images/pizza_decomposed.png" alt="Final Pizza Image" width="500"/>
     </p>
 
 
