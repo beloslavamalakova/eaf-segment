@@ -7,7 +7,7 @@
 ## Overview
 
 **SegmentCraft** is a project that explores **image segmentation and object manipulation**.
-We use [Meta’s Segment Anything Model (SAM)](https://ai.meta.com/datasets/segment-anything/) to automatically generate segmentation masks.We then save them, and  manipulate or replace the segmented objects according to **custom thresholds** (e.g., object size). We have also taken inspiration from [Kaggle Pepperoni Mask Notebook](https://www.kaggle.com/code/yogendrayatnalkar/sam-automatic-semantic-segmentation/notebook).
+We use [Meta’s Segment Anything Model (SAM)](https://ai.meta.com/datasets/segment-anything/) to automatically generate segmentation masks.We then save them, and  manipulate or replace the segmented objects according to **custom thresholds** (e.g., object size). We have also taken inspiration from [Kaggle Pepperoni Mask Notebook](https://www.kaggle.com/code/yogendrayatnalkar/sam-automatic-semantic-segmentation/notebook) for the used image in our examples.
 
 The repository also contains our **initial experiments with K-Means clustering** for image decomposition, which laid the groundwork for the SAM pipeline.
 
