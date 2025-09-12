@@ -28,6 +28,16 @@ The repository also contains our **initial experiments with K-Means clustering**
     * *Replace only masks larger than 5% of the image area*
     * *Replace masks smaller than 1% of the image area*
     * *Replace masks in a percentile band (e.g., between the 60th and 90th percentile of mask area)*
+    * *Scale through Dion-scaling so that the new images fit perfectly in each mask.*
+   
+    <p align="center">
+       <img src="images/pizza_SAM.png" alt="Alt text" width="500"/>
+    </p>
+
+    <p align="center">
+       <img src="images/pizza_done.png" alt="Alt text" width="500"/>
+    </p>
+
 
 * **Round-robin replacement**
 
